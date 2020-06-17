@@ -1,10 +1,11 @@
 {
   "name": "tado-cli",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "bin": {
     "tado": "./index.js"
@@ -14,5 +15,12 @@
   "dependencies": {
     "commander": "^5.1.0",
     "node-tado-client": "^0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muratcorlu/tado-cli.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.8"
   }
 }
