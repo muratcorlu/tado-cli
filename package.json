@@ -21,6 +21,6 @@
     "url": "https://github.com/muratcorlu/tado-cli.git"
   },
   "devDependencies": {
-    "semantic-release": "^17.0.8"
+    "semantic-release": "^19.0.3"
   }
 }
